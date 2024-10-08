@@ -138,7 +138,7 @@ const Footer = () => {
               <p className="fs-six order-2 order-md-0 text-center text-md-start">
                 The source code is available on{" "}
                 <a
-                  href="https://github.com/omsenpaiii/HackIndia2024-CrytpoCrafters"
+                  href="https://github.com/NK-Works/IDentifyChain"
                   style={{
                     textDecoration: "underline",
                     color: "#B6B6B6",
