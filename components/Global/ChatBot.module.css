@@ -1,0 +1,155 @@
+.init {
+  background-color: #f73859;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.init:hover {
+  background-color: #fdd115;
+  transform: scale(1.05);
+}
+
+.chatContainer {
+  width: 320px;
+  height: 500px;
+  background: linear-gradient(135deg, #fff6e9, #ffffff);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.chatContainer:hover {
+  transform: translateY(-5px);
+}
+
+.chatHeader {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #f73859;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+}
+
+.profileImage {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: 15px;
+}
+
+.chatHeaderText {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.chatBotName {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.onlineStatus {
+  font-size: 12px;
+  color: #fff6e9;
+}
+
+.chatBox {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background-color: #fff6e9;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.msg {
+  background-color: ;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 8px 0;
+  max-width: 80%;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.msg:hover {
+  background-color: #fbd549;
+}
+
+.test.rep {
+  background-color: #ffdf69;
+  align-self: flex-end;
+}
+
+.opt {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f73859;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.opt:hover {
+  background-color: #fdd115;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mLink {
+  color: #f73859;
+  text-decoration: none;
+}
+
+.mLink:hover {
+  text-decoration: underline;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #f73859;
+}
+
+.profileButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /*background-color: #f73859;*/
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.profileButton:hover {
+  background-color: #f73859;
+  transform: scale(1.15);
+}
