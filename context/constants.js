@@ -21,8 +21,8 @@ const networks = {
     chainId: `0x${Number(80002).toString(16)}`,
     chainName: "Polygon Amoy",
     nativeCurrency: {
-      name: "MATIC",
-      symbol: "MATIC",
+      name: "POL",
+      symbol: "POL",
       decimals: 18,
     },
     rpcUrls: ["https://rpc-amoy.polygon.technology/"],
